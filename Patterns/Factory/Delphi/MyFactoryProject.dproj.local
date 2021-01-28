@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>1899.12.30 00:00:00.000.359,=C:\Users\Roman\Documents\RAD Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2021.01.28 10:00:29.315,=C:\Users\Roman\Documents\RAD Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2021.01.28 10:20:54.371,C:\Projects\MyProjects\UsefulLibrary\Patterns\Factory\Delphi\MyFactoryUnit.dfm=C:\Users\Roman\Documents\RAD Studio\Projects\Unit1.dfm</Transaction>
+    <Transaction>2021.01.28 10:20:54.371,C:\Projects\MyProjects\UsefulLibrary\Patterns\Factory\Delphi\MyFactoryUnit.pas=C:\Users\Roman\Documents\RAD Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2021.01.28 10:21:09.316,C:\Projects\MyProjects\UsefulLibrary\Patterns\Factory\Delphi\MyFactoryProject.dproj=C:\Users\Roman\Documents\RAD Studio\Projects\Project2.dproj</Transaction>
+  </Transactions>
+</BorlandProject>
