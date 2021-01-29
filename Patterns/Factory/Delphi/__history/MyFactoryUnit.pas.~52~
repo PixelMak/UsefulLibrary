@@ -38,11 +38,11 @@ type
   end;
 //Dialogs
   TMyWindowsButtonDialog = class(TDialog)
-    function createButton(): TMyWindowsButton; override;
+    function createButton(): TMyButton; override;
   end;
 
   TMyHTMLButtonDialog = class(TDialog)
-    function createButton(): TMyHTMLButton; override;
+    function createButton(): TMyButton; override;
   end;
 
 //Form
@@ -100,14 +100,14 @@ end;
 
 { TMyWindowsButtonDialog }
 
-function TMyWindowsButtonDialog.createButton: TMyWindowsButtonDialog;
+function TMyWindowsButtonDialog.createButton: TMyButton;
 begin
   Result := TMyWindowsButtonDialog.Create;
 end;
 
 { TMyHTMLButtonDialog }
 
-function TMyHTMLButtonDialog.createButton: TMyHTMLButtonDialog;
+function TMyHTMLButtonDialog.createButton: TMyButton;
 begin
   Result := TMyHTMLButtonDialog.Create;
 end;

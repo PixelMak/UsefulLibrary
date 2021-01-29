@@ -34,15 +34,15 @@ type
       Button: TMyButton;
     public
       procedure render();
-      function createButton(): TMyButton; Virtual; Abstract;
+      function createButton(): TMyButton; Abstract;
   end;
 //Dialogs
   TMyWindowsButtonDialog = class(TDialog)
-    function createButton(): TMyWindowsButton; override;
+    function createButton(): TMyWindowsButtonDialog;
   end;
 
   TMyHTMLButtonDialog = class(TDialog)
-    function createButton(): TMyHTMLButton; override;
+    function createButton(): TMyHTMLButtonDialog;
   end;
 
 //Form

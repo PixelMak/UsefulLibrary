@@ -38,11 +38,11 @@ type
   end;
 //Dialogs
   TMyWindowsButtonDialog = class(TDialog)
-    function createButton(): TMyWindowsButton; override;
+    function createButton(): TMyWindowsButtonDialog; override;
   end;
 
   TMyHTMLButtonDialog = class(TDialog)
-    function createButton(): TMyHTMLButton; override;
+    function createButton(): TMyHTMLButtonDialog; override;
   end;
 
 //Form
